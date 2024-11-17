@@ -211,15 +211,15 @@
     },
         {
         "coordinates": [
-            0,
-            0
+            38.55266999551583,
+            -108.40353117984913
         ],
         "tooltip": "Morrison",
         "title": "Morrison Formation",
         "country": "United States",
         "period": "Jurassic",
         "image": {
-            "file": "artworks/Fezouata.jpg",
+            "file": "artworks/Morrison_Formation.png",
             "size": "1000px"
         }
     },
