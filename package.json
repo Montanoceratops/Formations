@@ -1,0 +1,46 @@
+{
+  "name": "formations",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "scripts": {
+    "build": "parcel build",
+    "start": "parcel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Montanacerotops/Formations.git"
+  },
+  "author": "montanacerotops",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Montanacerotops/Formations/issues"
+  },
+  "homepage": "https://github.com/Montanacerotops/Formations#readme",
+  "description": "",
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "leaflet.markercluster": "^1.5.3"
+  },
+  "devDependencies": {
+    "@parcel/config-default": "^2.13.0",
+    "@parcel/transformer-sass": "2.13.0",
+    "@types/leaflet": "^1.9.14",
+    "@types/leaflet.markercluster": "^1.5.5",
+    "parcel": "^2.13.0",
+    "parcel-namer-rewrite": "2.10.3-rc.2",
+    "parcel-reporter-static-files-copy": "1.5.3"
+  },
+  "parcel-namer-rewrite": {
+    "chain": "@parcel/namer-default",
+    "rules": {
+      "(.*)\\.png": "$1.png"
+    }
+  },
+  "staticFiles": [
+    {
+      "staticPath": "artworks/",
+      "includeGlob": "**/*.png",
+      "staticOutPath": "artworks/"
+    }
+  ]
+}
