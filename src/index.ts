@@ -1,4 +1,4 @@
-import { map, tileLayer, marker, MapOptions, LatLngExpression, MarkerClusterGroup, markerClusterGroup } from "leaflet";
+import { map, tileLayer, marker, MapOptions, LatLngExpression } from "leaflet";
 import "leaflet.markercluster";
 import markers from './marker.json';
 
@@ -12,26 +12,10 @@ tileLayer('https://api.maptiler.com/maps/dataviz/{z}/{x}/{y}.png?key=WlQcOtyrZYp
     attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>',
 
 }).addTo(formationsMap);
-
-let markerGroup = markerClusterGroup()
-
-for (let m of markers) {
-    let coordinates: LatLngExpression = m["coordinates"] as LatLngExpression
-    let tooltip = m["tooltip"]
-    let title = m["title"]
-    let country = m["country"]
-    let period = m["period"]
-    let image = m["image"]
-    let imageFile = image["file"]
-    let imageSize = image["size"]
-
-    markerGroup.addLayer(
         marker(coordinates, { title: tooltip })
             .bindPopup(`<h1>${title}</h1><p>Country: ${country}<br>Period: ${period}</p><img class="popupimg" src="${imageFile}" style="width: ${imageSize}">`)
     )
 }
-
-formationsMap.addLayer(markerGroup)
 
 //testing size img popup fix
 document.querySelector(".leaflet-popup-pane")?.addEventListener("load", function (event) {
