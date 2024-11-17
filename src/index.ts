@@ -1,5 +1,5 @@
 import { map, tileLayer, marker, MapOptions, LatLngExpression,b MarkerClusterGroup, markerClusterGroup } from "leaflet";
-//import "leaflet.markercluster";
+import "leaflet.markercluster";
 import markers from './marker.json';
 
 const options: MapOptions = {
@@ -13,25 +13,25 @@ tileLayer('https://api.maptiler.com/maps/dataviz/{z}/{x}/{y}.png?key=WlQcOtyrZYp
 
 }).addTo(formationsMap);
 
-//let markerGroup = markerClusterGroup()
+let markerGroup = markerClusterGroup()
 
-//for (let m of markers) {
-//    let coordinates: LatLngExpression = m["coordinates"] as LatLngExpression
-//    let tooltip = m["tooltip"]
-//    let title = m["title"]
-//    let country = m["country"]
-//    let period = m["period"]
-//    let image = m["image"]
-//    let imageFile = image["file"]
-//    let imageSize = image["size"]
+for (let m of markers) {
+    let coordinates: LatLngExpression = m["coordinates"] as LatLngExpression
+    let tooltip = m["tooltip"]
+    let title = m["title"]
+    let country = m["country"]
+    let period = m["period"]
+    let image = m["image"]
+    let imageFile = image["file"]
+    let imageSize = image["size"]
 
-//    markerGroup.addLayer(
-//        marker(coordinates, { title: tooltip })
-//            .bindPopup(`<h1>${title}</h1><p>Country: ${country}<br>Period: ${period}</p><img class="popupimg" src="${imageFile}" style="width: ${imageSize}">`)
-//    )
-//}
+    markerGroup.addLayer(
+        marker(coordinates, { title: tooltip })
+            .bindPopup(`<h1>${title}</h1><p>Country: ${country}<br>Period: ${period}</p><img class="popupimg" src="${imageFile}" style="width: ${imageSize}">`)
+    )
+}
 
-formationsMap.addLayer(markerGroup)//
+formationsMap.addLayer(markerGroup)
 
 
 //testing size img popup fix
