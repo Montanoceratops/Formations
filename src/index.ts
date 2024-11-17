@@ -1,4 +1,4 @@
-import { map, tileLayer, marker, MapOptions, LatLngExpression,b MarkerClusterGroup, markerClusterGroup } from "leaflet";
+import { map, tileLayer, marker, MapOptions, LatLngExpression, MarkerClusterGroup, markerClusterGroup } from "leaflet";
 import "leaflet.markercluster";
 import markers from './marker.json';
 
@@ -32,7 +32,6 @@ for (let m of markers) {
 }
 
 formationsMap.addLayer(markerGroup)
-
 
 //testing size img popup fix
 document.querySelector(".leaflet-popup-pane")?.addEventListener("load", function (event) {
