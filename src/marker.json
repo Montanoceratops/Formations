@@ -215,11 +215,11 @@
             0
         ],
         "tooltip": "Morrison",
-        "title": "Morrison Formation (Based on Dry Mesa Quarry)",
+        "title": "Morrison Formation",
         "country": "United States",
         "period": "Jurassic",
         "image": {
-            "file": "artworks/Morrison_Formation.png",
+            "file": "artworks/Fezouata.jpg",
             "size": "1000px"
         }
     },
