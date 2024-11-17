@@ -1,5 +1,4 @@
 import { map, tileLayer, marker, MapOptions, LatLngExpression } from "leaflet";
-import "leaflet.markercluster";
 import markers from './marker.json';
 
 const options: MapOptions = {
