@@ -10,12 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/Montanacerotops/Formations.git"
   },
-  "author": "montanacerotops",
+  "author": "montanoceratops",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Montanacerotops/Formations/issues"
+    "url": "https://github.com/Montanoceratops/Formations/issues"
   },
-  "homepage": "https://github.com/Montanacerotops/Formations#readme",
+  "homepage": "https://github.com/Montanoceratops/Formations#readme",
   "description": "",
   "dependencies": {
     "leaflet": "^1.9.4",
