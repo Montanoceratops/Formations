@@ -209,6 +209,20 @@
             "size": "1000px"
         }
     },
+        {
+        "coordinates": [
+            0,
+            0
+        ],
+        "tooltip": "Morrison",
+        "title": "Morrison Formation (Based on Dry Mesa Quarry)",
+        "country": "United States",
+        "period": "Jurassic",
+        "image": {
+            "file": "artworks/Morrison_Formation.png",
+            "size": "1000px"
+        }
+    },
     {
         "coordinates": [
             39.59513408745693,
@@ -487,20 +501,6 @@
         "image": {
             "file": "artworks/.png",
             "size": "0px"
-        }
-    },
-    {
-        "coordinates": [
-            38.556582094322664,
-            -108.40160332593905
-        ],
-        "tooltip": "Morrison",
-        "title": "Morrison Formation (Based on Dry Mesa Quarry)",
-        "country": "United States",
-        "period": "Jurassic",
-        "image": {
-            "file": "artworks/Morrison_Formation.png",
-            "size": "1000px"
         }
     }
 ]
