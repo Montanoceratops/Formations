@@ -500,6 +500,19 @@
         "period": "Triassic",
         "image": {
             "file": "artworks/Ermaying_Formation_01.png",
+            "size": "1000px"
+        },
+            {
+        "coordinates": [
+            28.862668964316043,
+            28.368058662925122
+        ],
+        "tooltip": "Bahariya Formation",
+        "title": "Bahariya Formation",
+        "country": "Egypt",
+        "period": "Cretaceous",
+        "image": {
+            "file": "artworks/.png",
             "size": "0px"
         }
     }
