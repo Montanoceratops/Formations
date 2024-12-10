@@ -516,5 +516,19 @@
             "file": "artworks/Bahariya_formation_01.jpg",
             "size": "1000px"
         }
+    },
+                {
+        "coordinates": [
+            -84.91026576197362,
+            39.80461883451309
+        ],
+        "tooltip": "Whitewater Formation",
+        "title": "Whitewater Formation (Cincinnati Arch)",
+        "country": "United States",
+        "period": "Ordovician",
+        "image": {
+            "file": "artworks/",
+            "size": "0px"
+        }
     }
 ]
