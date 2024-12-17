@@ -527,8 +527,22 @@
         "country": "United States",
         "period": "Ordovician",
         "image": {
-            "file": "artworks/",
+            "file": "artworks/Whitewater_Formation_01.png",
+            "size": "1000px"
+        }
+    },
+                {
+        "coordinates": [
+            29.082009163316727,
+            69.16344391234625
+        ],
+        "tooltip": "Bugti Hills",
+        "title": "Bugti Hills",
+        "country": "Pakistan",
+        "period": "Paleogene",
+        "image": {
+            "file": "artworks/.png",
             "size": "0px"
         }
-    }
+                }
 ]
