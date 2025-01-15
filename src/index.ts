@@ -24,13 +24,14 @@ for (let m of markers) {
     let image = m["image"]
     let imageFile = image["file"]
     let imageSize = image["size"]
+    let button = m["button"]
 
     markerGroup.addLayer(
         marker(coordinates, { title: tooltip })
-            .bindPopup(`<h1>${title}</h1><p>Country: ${country}<br>Period: ${period}</p><img class="popupimg" src="${imageFile}" style="width: ${imageSize}">`)
+            .bindPopup(`<h1>${title}</h1><p>Country: ${country}<br>Period: ${period}</p><img class="popupimg" src="${imageFile}" style="width: ${imageSize}"><br><button onclick="changeImage()">change image</button>`) //this last bit adds a button
     )
 }
-
+<script src="script.js"></script> //This loads the script file
 formationsMap.addLayer(markerGroup)
 
 //testing size img popup fix
