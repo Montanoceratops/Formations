@@ -24,6 +24,7 @@ for (let m of markers) {
     let image = m["image"]
     let imageFile = image["file"]
     let imageSize = image["size"]
+    //need to add a button here
 
     markerGroup.addLayer(
         marker(coordinates, { title: tooltip })
