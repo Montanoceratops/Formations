@@ -557,6 +557,7 @@
         "image": {
             "file": "artworks/Giganothopithecus_Fauna.jpg",
             "size": "1000px"
+        }
         },
                 {
         "coordinates": [
@@ -570,6 +571,7 @@
         "image": {
             "file": "artworks/.jpg",
             "size": "0px"
+        }
         },
                 {
         "coordinates": [
@@ -584,5 +586,5 @@
             "file": "artworks/.jpg",
             "size": "0px"
         }
-                }
+   }
 ]
