@@ -547,8 +547,8 @@
         },
                 {
         "coordinates": [
-            109.70312701807029,
-            24.882216494589144
+            24.882216494589144,
+            109.70312701807029
         ],
         "tooltip": "Gigantopithecus Fauna",
         "title": "Gigantopithecus Fauna",
@@ -561,8 +561,8 @@
         },
                 {
         "coordinates": [
-            -106.9289533522583,
-            47.369579315870396
+            47.369579315870396,
+            -106.9289533522583
         ],
         "tooltip": "Hell Creek",
         "title": "Hell Creek Formation",
@@ -575,8 +575,8 @@
         },
                 {
         "coordinates": [
-            -106.9289533522583,
-            47.369579315870396
+            47.369579315870396,
+            -106.9289533522583
         ],
         "tooltip": "Rio de Rastro",
         "title": "Rio de Rastro Formation",
