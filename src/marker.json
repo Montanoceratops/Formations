@@ -543,6 +543,45 @@
         "image": {
             "file": "artworks/Bugti_hills.jpg",
             "size": "1000px"
+        },
+                {
+        "coordinates": [
+            109.70312701807029,
+            24.882216494589144
+        ],
+        "tooltip": "Gigantopithecus Fauna",
+        "title": "Gigantopithecus Fauna",
+        "country": "China",
+        "period": "Neogene",
+        "image": {
+            "file": "artworks/Giganothopithecus_Fauna.jpg",
+            "size": "1000px"
+        },
+                {
+        "coordinates": [
+            -106.9289533522583,
+            47.369579315870396
+        ],
+        "tooltip": "Hell Creek",
+        "title": "Hell Creek Formation",
+        "country": "United States",
+        "period": "Cretaceous",
+        "image": {
+            "file": "artworks/.jpg",
+            "size": "0px"
+        },
+                {
+        "coordinates": [
+            -106.9289533522583,
+            47.369579315870396
+        ],
+        "tooltip": "Rio de Rastro",
+        "title": "Rio de Rastro Formation",
+        "country": "Brazil",
+        "period": "Permian",
+        "image": {
+            "file": "artworks/.jpg",
+            "size": "0px"
         }
                 }
 ]
