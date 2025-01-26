@@ -586,5 +586,19 @@
             "file": "artworks/.jpg",
             "size": "0px"
         }
+   },
+                    {
+        "coordinates": [
+            38.8620170838191,
+            -104.58994647270583
+        ],
+        "tooltip": "Corral Bluffs",
+        "title": "Rio de Rastro Formation",
+        "country": "Brazil",
+        "period": "Permian",
+        "image": {
+            "file": "artworks/.jpg",
+            "size": "0px"
+        }
    }
 ]
