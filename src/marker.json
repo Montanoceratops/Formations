@@ -569,8 +569,8 @@
         "country": "United States",
         "period": "Cretaceous",
         "image": {
-            "file": "artworks/.jpg",
-            "size": "0px"
+            "file": "artworks/Placeholder.png",
+            "size": "1000px"
         }
         },
                 {
@@ -583,8 +583,8 @@
         "country": "Brazil",
         "period": "Permian",
         "image": {
-            "file": "artworks/.jpg",
-            "size": "0px"
+            "file": "artworks/Placeholder.png",
+            "size": "1000px"
         }
         },
                     {
@@ -597,8 +597,8 @@
         "country": "United States",
         "period": "Paleogene",
         "image": {
-            "file": "artworks/.jpg",
-            "size": "0px"
+            "file": "artworks/Placeholder.png",
+            "size": "1000px"
         }
    }
 ]
