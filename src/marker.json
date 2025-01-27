@@ -578,8 +578,8 @@
             -28.400789117865003,
             -49.482179617137234
         ],
-        "tooltip": "Rio de Rastro",
-        "title": "Rio de Rastro Formation",
+        "tooltip": "Rio do Rasto",
+        "title": "Rio do Rasto Formation",
         "country": "Brazil",
         "period": "Permian",
         "image": {
@@ -593,7 +593,7 @@
             -104.58994647270583
         ],
         "tooltip": "Corral Bluffs",
-        "title": "Corral Bluffs (Denver Formation)",
+        "title": "Denver Formation (Corral Bluffs)",
         "country": "United States",
         "period": "Paleogene",
         "image": {
