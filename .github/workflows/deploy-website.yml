@@ -27,7 +27,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         #tarball code
-                with:
+        with:
           lfs: true
 
       - name: Setup Pages
