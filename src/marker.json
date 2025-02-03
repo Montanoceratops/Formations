@@ -583,7 +583,7 @@
         "country": "Brazil",
         "period": "Permian",
         "image": {
-            "file": "artworks/Placeholder.png",
+            "file": "artworks/Rio_do_Rasto_Formation.png",
             "size": "1000px"
         }
         },
@@ -594,6 +594,20 @@
         ],
         "tooltip": "Corral Bluffs",
         "title": "Denver Formation (Corral Bluffs)",
+        "country": "United States",
+        "period": "Paleogene",
+        "image": {
+            "file": "artworks/Placeholder.png",
+            "size": "1000px"
+        }
+   },
+                    {
+        "coordinates": [
+            41.844528309653526,
+            -110.74357070627038
+        ],
+        "tooltip": "Green River",
+        "title": "Green River Formation (Fossil Lake Member)",
         "country": "United States",
         "period": "Paleogene",
         "image": {
