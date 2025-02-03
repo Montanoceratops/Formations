@@ -1,10 +1,9 @@
 {
   "name": "formations",
   "version": "1.0.0",
-  "source": "src/index.html",
   "scripts": {
-    "build": "parcel build",
-    "start": "parcel"
+    "build": "parcel build 'src/**/*.html'",
+    "start": "parcel 'src/**/*.html'"
   },
   "repository": {
     "type": "git",
@@ -16,19 +15,22 @@
     "url": "https://github.com/Montanoceratops/Formations/issues"
   },
   "homepage": "https://github.com/Montanoceratops/Formations#readme",
-  "description": "",
+  "browserslist": [ "> 0.5%, last 2 versions, not dead" ],
   "dependencies": {
     "leaflet": "^1.9.4",
     "leaflet.markercluster": "^1.5.3"
   },
   "devDependencies": {
     "@parcel/config-default": "^2.13.0",
+    "@parcel/resolver-glob": "^2.13.0",
+    "@parcel/transformer-inline-string": "2.13.0",
     "@parcel/transformer-sass": "2.13.0",
     "@types/leaflet": "^1.9.14",
     "@types/leaflet.markercluster": "^1.5.5",
     "parcel": "^2.13.0",
     "parcel-namer-rewrite": "2.10.3-rc.2",
-    "parcel-reporter-static-files-copy": "1.5.3"
+    "parcel-reporter-static-files-copy": "1.5.3",
+    "sharp": "^0.33.5"
   },
   "parcel-namer-rewrite": {
     "chain": "@parcel/namer-default",

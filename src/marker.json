@@ -9,7 +9,7 @@
         "country": "Morroco",
         "period": "Ordovician",
         "image": {
-            "file": "artworks/Fezouata.jpg",
+            "file": "artworks/Fezouata_Formation.png",
             "size": "1000px"
         }
     },
@@ -209,7 +209,7 @@
             "size": "1000px"
         }
     },
-        {
+    {
         "coordinates": [
             38.55266999551583,
             -108.40353117984913

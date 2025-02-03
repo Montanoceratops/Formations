@@ -1,0 +1,14 @@
+{
+    "coordinates": [
+        20.722467743936676,
+        -77.3070171286546
+    ],
+    "tooltip": "Pleistocene Cuba",
+    "title": "Pleistocene Cuba",
+    "country": "Cuba",
+    "period": "Pleistocene",
+    "image": {
+        "file": "artworks/Cuba_Pleistocen.png",
+        "size": "500px"
+    }
+}
