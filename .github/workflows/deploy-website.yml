@@ -54,7 +54,7 @@ jobs:
         run: pnpm run build --public-url $(gh api "repos/$GITHUB_REPOSITORY/pages" --jq '.html_url')
 
       - name: Upload Artifact
-        uses: actions/upload-pages-artifact@v4 #was version 2
+        uses: actions/upload-pages-artifact@v3 #was version 2
         with:
           # upload entire directory
           path: 'dist/'
