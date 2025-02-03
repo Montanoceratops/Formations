@@ -26,9 +26,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        #next two lines of code from tarball
-        with:
-        lfs: true
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
