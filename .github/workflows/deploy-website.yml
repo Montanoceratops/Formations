@@ -26,6 +26,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        #next two lines of code from tarball
         with:
         lfs: true
 
@@ -53,7 +54,7 @@ jobs:
         run: pnpm run build --public-url $(gh api "repos/$GITHUB_REPOSITORY/pages" --jq '.html_url')
 
       - name: Upload Artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v4 #was version 2
         with:
           # upload entire directory
           path: 'dist/'
