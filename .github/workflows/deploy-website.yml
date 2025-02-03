@@ -26,6 +26,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        #tarball code
+        with:
+          lfs: true
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
@@ -51,7 +54,7 @@ jobs:
         run: pnpm run build --public-url $(gh api "repos/$GITHUB_REPOSITORY/pages" --jq '.html_url')
 
       - name: Upload Artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3 #was version 2
         with:
           # upload entire directory
           path: 'dist/'
@@ -65,4 +68,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4

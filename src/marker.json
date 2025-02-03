@@ -34,7 +34,7 @@
         ],
         "tooltip": "Hanson",
         "title": "Hanson Formation",
-        "country": "Antarctica (UK)",
+        "country": "Antarctica",
         "period": "Jurassic",
         "image": {
             "file": "artworks/Hanson formation.png",
@@ -485,8 +485,8 @@
         "country": "Luxembourg",
         "period": "Devonian",
         "image": {
-            "file": "artworks/.png",
-            "size": "0px"
+            "file": "artworks/Consthum_Quarry.png",
+            "size": "1000px"
         }
     },
     {
@@ -499,8 +499,120 @@
         "country": "China",
         "period": "Triassic",
         "image": {
-            "file": "artworks/.png",
-            "size": "0px"
+            "file": "artworks/Ermaying_Formation_01.png",
+            "size": "1000px"
         }
-    }
+        },
+            {
+        "coordinates": [
+            28.862668964316043,
+            28.368058662925122
+        ],
+        "tooltip": "Bahariya Formation",
+        "title": "Bahariya Formation",
+        "country": "Egypt",
+        "period": "Cretaceous",
+        "image": {
+            "file": "artworks/Bahariya_formation_01.png",
+            "size": "1000px"
+        }
+    },
+                {
+        "coordinates": [
+            39.80461883451309,
+            -84.91026576197362
+        ],
+        "tooltip": "Whitewater Formation",
+        "title": "Whitewater Formation (Cincinnati Arch)",
+        "country": "United States",
+        "period": "Ordovician",
+        "image": {
+            "file": "artworks/Whitewater_Formation_01.png",
+            "size": "1000px"
+        }
+    },
+                {
+        "coordinates": [
+            29.082009163316727,
+            69.16344391234625
+        ],
+        "tooltip": "Bugti Hills",
+        "title": "Bugti Hills",
+        "country": "Pakistan",
+        "period": "Paleogene",
+        "image": {
+            "file": "artworks/Bugti_hills.jpg",
+            "size": "1000px"
+            }
+        },
+                {
+        "coordinates": [
+            24.882216494589144,
+            109.70312701807029
+        ],
+        "tooltip": "Gigantopithecus Fauna",
+        "title": "Gigantopithecus Fauna",
+        "country": "China",
+        "period": "Neogene",
+        "image": {
+            "file": "artworks/Giganothopithecus_Fauna.jpg",
+            "size": "1000px"
+        }
+        },
+                {
+        "coordinates": [
+            47.369579315870396,
+            -106.9289533522583
+        ],
+        "tooltip": "Hell Creek",
+        "title": "Hell Creek Formation",
+        "country": "United States",
+        "period": "Cretaceous",
+        "image": {
+            "file": "artworks/Hell_Creek_01.png",
+            "size": "1000px"
+        }
+        },
+                {
+        "coordinates": [
+            -28.400789117865003,
+            -49.482179617137234
+        ],
+        "tooltip": "Rio do Rasto",
+        "title": "Rio do Rasto Formation",
+        "country": "Brazil",
+        "period": "Permian",
+        "image": {
+            "file": "artworks/Rio_do_Rasto_Formation.png",
+            "size": "1000px"
+        }
+        },
+                    {
+        "coordinates": [
+            38.8620170838191,
+            -104.58994647270583
+        ],
+        "tooltip": "Corral Bluffs",
+        "title": "Denver Formation (Corral Bluffs)",
+        "country": "United States",
+        "period": "Paleogene",
+        "image": {
+            "file": "artworks/Placeholder.png",
+            "size": "1000px"
+        }
+        },
+                    {
+        "coordinates": [
+            41.844528309653526,
+            -110.74357070627038
+        ],
+        "tooltip": "Green River",
+        "title": "Green River Formation (Fossil Lake Member)",
+        "country": "United States",
+        "period": "Paleogene",
+        "image": {
+            "file": "artworks/Placeholder.png",
+            "size": "1000px"
+        }
+                    }
 ]
