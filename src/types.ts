@@ -6,6 +6,7 @@ export class MarkerMetadata {
     title: string;
     country: string;
     period: string;
+    alt: string;
 }
 
 export class JsonMarkerMetadata {

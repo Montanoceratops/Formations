@@ -14,7 +14,8 @@ export function createPopup(popupTemplate: string, metadata: MarkerMetadata): st
     return popupTemplate
         .replaceAll("{{title}}", metadata.title)
         .replaceAll("{{country}}", metadata.country)
-        .replaceAll("{{period}}", metadata.period);
+        .replaceAll("{{period}}", metadata.period)
+        .replaceAll("{{alt}}", metadata.alt);
 }
 
 const markerOptions: MarkerOptions = {};
