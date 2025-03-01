@@ -1,18 +1,37 @@
+@use "sass:string" as string;
+//noinspection CssUnknownTarget
+@import "npm:leaflet/dist/leaflet.css";
+//noinspection CssUnknownTarget
+@import "npm:leaflet.markercluster/dist/MarkerCluster.Default.css";
+//noinspection CssUnknownTarget
+@import "npm:leaflet.markercluster/dist/MarkerCluster.css";
+
 #map {
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    inset: 0;
 }
+
+$popup-horizontal-margin: 12px;
 
 .leaflet-popup-content {
     width: unset !important;
+    margin: 24px $popup-horizontal-margin;
 }
 
 // gross box around markers
 .leaflet-pane {
     .leaflet-shadow-pane {
         display: none;
+    }
+}
+
+// TODO: currently, this does not play nicely with horizontal screens
+.popupimg {
+    $padding-x: 16px * 2 + $popup-horizontal-margin * 2;
+
+    width: calc(100vw - $padding-x);
+
+    @media (width >= 1280px) {
+        width: calc(1280px - $padding-x);
     }
 }

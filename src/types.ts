@@ -14,5 +14,5 @@ export class JsonMarkerMetadata {
     title: string;
     country: string;
     period: string;
-    image: { file: string, size: string }
+    image: { file: string, size: string };
 }

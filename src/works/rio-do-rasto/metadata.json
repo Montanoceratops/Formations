@@ -1,10 +1,11 @@
 {
-  "coordinates": [
-    -28.400789117865003,
-    -49.482179617137234
-  ],
-  "tooltip": "Rio do Rasto",
-  "title": "Rio do Rasto Formation",
-  "country": "Brazil",
-  "period": "Permian"
+    "coordinates": [
+        -28.400789117865003,
+        -49.482179617137234
+    ],
+    "tooltip": "Rio do Rasto",
+    "title": "Rio do Rasto Formation",
+    "country": "Brazil",
+    "period": "Permian",
+    "alt": "TODO"
 }

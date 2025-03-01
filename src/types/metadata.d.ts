@@ -1,10 +1,9 @@
-declare module '*/metadata.json' {
-    import {MarkerMetadata} from "types";
-    let value: MarkerMetadata;
-    export default value;
+declare module "*/metadata.json" {
+    let value: import("../types").MarkerMetadata;
+    export = value;
 }
-declare module '*/marker.json' {
-    import {JsonMarkerMetadata} from "types";
-    let value: [JsonMarkerMetadata];
-    export default value;
+
+declare module "*/marker.json" {
+    let value: [import("../types.ts").JsonMarkerMetadata];
+    export = value;
 }

@@ -2,24 +2,43 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <script type="module" src="index.ts"></script>
+    <!-- Metadata -->
+    <title><%= meta.title %></title>
+    <meta name="title" content="<%= meta.title %>">
+    <meta name="description" content="<%= meta.description %>">
 
-  <link rel="stylesheet" href="npm:leaflet/dist/leaflet.css" />
-  <link rel="stylesheet" href="npm:leaflet.markercluster/dist/MarkerCluster.Default.css" />
-  <link rel="stylesheet" href="index.scss" />
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Formations">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="<%= meta.title %>">
+    <meta property="og:description" content="<%= meta.description %>">
+    <meta property="og:image:url" content="/src/assets/marker.png?width=256&height=256&as=png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="256">
+    <meta property="og:image:height" content="256">
+    <meta property="og:image:alt" content="An orange map marker that looks like the back of a trilobite">
 
-  <meta charset="UTF-8">
+    <meta name="twitter:title" content="<%= meta.title %>">
+    <meta name="twitter:description" content="<%= meta.description %>">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/src/assets/marker.png?width=256&height=256&as=png">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link href="/src/assets/marker.ico" rel="shortcut icon" sizes="32x32" type="image/vnd.icon"/>
+    <link href="/src/assets/marker.png?width=32&height=32" rel="shortcut icon" sizes="32x32" type="image/png"/>
+    <link href="/src/assets/marker.png?width=64&height=64" rel="shortcut icon" sizes="64x64" type="image/png"/>
+    <link href="/src/assets/marker.png?width=32&height=32&as=webp" rel="shortcut icon" sizes="32x32" type="image/webp"/>
+    <link href="/src/assets/marker.png?width=64&height=64&as=webp" rel="shortcut icon" sizes="64x64" type="image/webp"/>
 
-  <title>Formation Map</title>
-
+    <link href="index.scss" rel="stylesheet"/>
+    <script src="index.ts" type="module"></script>
 </head>
 
 <body>
-
-  <div id="map"></div>
+<div id="map"></div>
 </body>
-
 </html>
