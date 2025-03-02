@@ -1,10 +1,11 @@
 {
-  "coordinates": [
-    47.369579315870396,
-    -106.9289533522583
-  ],
-  "tooltip": "Hell Creek",
-  "title": "Hell Creek Formation",
-  "country": "United States",
-  "period": "Cretaceous"
+    "coordinates": [
+        47.369579315870396,
+        -106.9289533522583
+    ],
+    "tooltip": "Hell Creek",
+    "title": "Hell Creek Formation",
+    "country": "United States",
+    "period": "Cretaceous",
+    "alt": "TODO"
 }

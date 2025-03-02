@@ -1,10 +1,11 @@
 {
-  "coordinates": [
-    28.862668964316043,
-    28.368058662925122
-  ],
-  "tooltip": "Bahariya Formation",
-  "title": "Bahariya Formation",
-  "country": "Egypt",
-  "period": "Cretaceous"
+    "coordinates": [
+        28.862668964316043,
+        28.368058662925122
+    ],
+    "tooltip": "Bahariya Formation",
+    "title": "Bahariya Formation",
+    "country": "Egypt",
+    "period": "Cretaceous",
+    "alt": "TODO"
 }

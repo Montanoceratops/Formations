@@ -2,8 +2,8 @@
   "name": "formations",
   "version": "1.0.0",
   "scripts": {
-    "build": "parcel build 'src/**/*.html'",
-    "start": "parcel 'src/**/*.html'"
+    "build": "parcel build 'src/*.html'",
+    "start": "parcel 'src/*.html'"
   },
   "repository": {
     "type": "git",
@@ -24,24 +24,30 @@
   },
   "devDependencies": {
     "@parcel/config-default": "^2.13.3",
+    "@parcel/plugin": "^2.13.3",
+    "@parcel/utils": "^2.13.3",
     "@parcel/resolver-glob": "^2.13.3",
     "@parcel/transformer-inline-string": "^2.13.3",
     "@parcel/transformer-sass": "^2.13.3",
+    "@parcel/types": "^2.13.3",
+    "@types/ejs": "^3.1.5",
     "@types/leaflet": "^1.9.16",
     "@types/leaflet.markercluster": "^1.5.5",
+    "ejs": "^3.1.10",
     "parcel": "^2.13.3",
     "parcel-namer-rewrite": "^2.10.3-rc.2",
-    "parcel-reporter-static-files-copy": "^1.5.3",
     "sharp": "^0.33.5"
   },
   "parcel-namer-rewrite": {
-    "chain": "@parcel/namer-default"
-  },
-  "staticFiles": [
-    {
-      "staticPath": "artworks/",
-      "includeGlob": "**/*.png",
-      "staticOutPath": "artworks/"
+    "chain": "@parcel/namer-default",
+    "rules": {
+      "(.*/)?([^/]*)\\.css": "assets/css/$2{.hash}.css",
+      "(.*/)?([^/]*)\\.(avif|webp|png|jpe?g)": "assets/img/$2{.hash}.$3",
+      "(.*/)?([^/]*)\\.svg": "assets/svg/$2{.hash}.svg",
+      "(.*/)?([^/]*)\\.js": "assets/js/$2{.hash}.js",
+      "(.*/)?([^/]*)\\.(ttf|woff2?|eot|otf)": "assets/fonts/$2{.hash}.$3",
+      "(.*/)?favicon\\.([^/]*)": "favicon.$2"
     }
-  ]
+  },
+  "packageManager": "pnpm@9.12.0+sha512.4abf725084d7bcbafbd728bfc7bee61f2f791f977fd87542b3579dcb23504d170d46337945e4c66485cd12d588a0c0e570ed9c477e7ccdd8507cf05f3f92eaca"
 }

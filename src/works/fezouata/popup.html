@@ -7,7 +7,15 @@
 </p>
 
 <picture>
-    <source srcset="/artworks/Fezouata.jpg?width=1000&as=avif" type="image/avif">
-    <source srcset="/artworks/Fezouata.jpg?width=1000&as=webp" type="image/webp">
-    <img class="popupimg" src="/artworks/Fezouata.jpg?width=1000&as=png">
+    <source srcset="/artworks/Fezouata.jpg?width=250&as=avif 250w,
+                    /artworks/Fezouata.jpg?width=500&as=avif 500w,
+                    /artworks/Fezouata.jpg?width=1000&as=avif 1000w,
+                    /artworks/Fezouata.jpg?width=2000&as=avif 2000w"
+            type="image/avif">
+    <source srcset="/artworks/Fezouata.jpg?width=250&as=webp 250w,
+                    /artworks/Fezouata.jpg?width=500&as=webp 500w,
+                    /artworks/Fezouata.jpg?width=1000&as=webp 1000w,
+                    /artworks/Fezouata.jpg?width=2000&as=webp 2000w"
+            type="image/webp">
+    <img class="popupimg" alt="{{alt}}" src="/artworks/Fezouata.jpg?width=1000&as=png">
 </picture>

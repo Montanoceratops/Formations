@@ -5,6 +5,7 @@
     ],
     "tooltip": "Hanson",
     "title": "Hanson Formation",
-  "country": "Antarctica",
-    "period": "Jurassic"
+    "country": "Antarctica",
+    "period": "Jurassic",
+    "alt": "TODO"
 }

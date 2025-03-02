@@ -6,6 +6,7 @@ export class MarkerMetadata {
     title: string;
     country: string;
     period: string;
+    alt: string;
 }
 
 export class JsonMarkerMetadata {
@@ -14,5 +15,5 @@ export class JsonMarkerMetadata {
     title: string;
     country: string;
     period: string;
-    image: { file: string, size: string }
+    image: { file: string, size: string };
 }
