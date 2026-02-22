@@ -1,0 +1,25 @@
+<h2>{{title}}</h2>
+
+<p>
+    Country: {{country}}
+    <br>
+    Period: {{period}}
+</p>
+
+<picture>
+    <source srcset="/artworks/Naracoorte_01.jpg?width=250&as=avif 250w,
+                    /artworks/Naracoorte_01.jpg?width=500&as=avif 500w,
+                    /artworks/Naracoorte_01.jpg?width=1000&as=avif 1000w,
+                    /artworks/Naracoorte_01.jpg?width=2000&as=avif 2000w"
+            type="image/avif">
+    <source srcset="/artworks/Naracoorte_01.jpg?width=250&as=webp 250w,
+                    /artworks/Naracoorte_01.jpg?width=500&as=webp 500w,
+                    /artworks/Naracoorte_01.jpg?width=1000&as=webp 1000w,
+                    /artworks/Naracoorte_01.jpg?width=2000&as=webp 2000w"
+            type="image/webp">
+    <img class="popupimg" alt="{{alt}}" src="/artworks/Naracoorte_01.jpg?width=1000&as=png"
+         srcset="/artworks/Naracoorte_01.jpg?width=250&as=png 250w,
+                 /artworks/Naracoorte_01.jpg?width=500&as=png 500w,
+                 /artworks/Naracoorte_01.jpg?width=1000&as=png 1000w,
+                 /artworks/Naracoorte_01.jpg?width=2000&as=png 2000w">
+</picture>
